@@ -2,7 +2,7 @@
 
 id = [1,2,3,4,5]
 names = ["David", "Cynthia", "Raymond", "Bryan", "Chris"]
-subject = ["Biology", "Chemistry", "Math", "Physics", "Socilogy"]
+subject = ["Biology", "Chemistry", "Math", "Physics", "Sociology"]
 grades = [60, 80, 78, 90, 95]
 
 
