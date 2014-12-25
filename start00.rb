@@ -5,6 +5,7 @@ lastName = gets
 print("What year were you born? ")
 birthYear = gets
 age = 2014 - Integer(birthYear)
+ageTen = age + 10
 
 print(firstName.chomp + " " + lastName.chomp + " is ", age , " years old.\n")
-
+print("In 10 years you will be ", ageTen, " years old.\n")
