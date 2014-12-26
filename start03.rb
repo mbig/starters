@@ -30,7 +30,7 @@ puts("Convert a sequence to an Array")
 
 nums = digits.to_a
 
-print("First number in array: ", nums[0], "\n")
+print("First number in array: ", nums[0].to_s, "\n")
 print("Second entry in array: ", nums[1], "\n")
 print("Third entry in array: ", nums[2], "\n")
 print("Firth entry in array: ", nums[4], "\n")
