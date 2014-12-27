@@ -1,11 +1,11 @@
 #!/usr/bin/ruby
 
-answer = "Watson\n"
+answer = "Watson"
 for i in 0..2
    print("What is the computer that played on Jeopardy?: ")
 
    ans = gets
-       if ans == answer
+       if ans.chomp == answer
          puts("You are correct")
          exit
        end
