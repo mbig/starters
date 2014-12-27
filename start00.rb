@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 print("Please enter your first name: ")
 firstName = gets
 print("Please enter your last name: ")
