@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+#
 #Arrays
 
 id = [1,2,3,4,5]

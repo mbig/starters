@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+#
 #Ranges
 
 letters = 'a'..'z'

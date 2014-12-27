@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+#
 ## Strings
 words = <<END
      Here are some words
