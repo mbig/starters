@@ -47,3 +47,20 @@ puts(sum)
 
 sum = 0
 2.step(100,2) {|x| print x, " "}
+
+
+#each iterator
+
+nums = [1,2,3,4,5]
+
+nums.each do |x|
+    print x, "\n"
+end
+
+
+for num in nums
+   print num, "\n"
+
+end
+
+
