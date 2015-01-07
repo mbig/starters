@@ -64,6 +64,32 @@ def to_s
 
                                                                               end
 
+class Square < Rectangle
+
+   def initialize(x,y,w,h)
+
+      super(x,y,w,h)
+
+      if !@w==@h
+
+         @w = @h
+
+      end
+
+   end
+
+
+
+   def to_s
+
+      print("Square: ")
+
+      print(super)
+
+   end
+
+end
+
 
 
                                                                               r1 = Rectangle.new(5,10,7,3)
@@ -73,3 +99,7 @@ def to_s
 r2 = Rectangle.new(1,2,2,4);
 
 puts(r2.to_s)
+
+s1 = Square.new(3,4,6,6);
+
+puts(s1.to_s) 
