@@ -48,7 +48,19 @@ class Shape
 
                                                                            @height = h
 
-                                                                              end
+
+
+                                                           end
+
+#Overriding the to string of superclass          
+
+def to_s
+
+      print(super)
+
+      print(" height: ", @height.to_s + " width: ", @width.to_s)
+
+   end
 
                                                                               end
 
@@ -57,3 +69,7 @@ class Shape
                                                                               r1 = Rectangle.new(5,10,7,3)
 
                                                                               puts(r1.to_s) 
+
+r2 = Rectangle.new(1,2,2,4);
+
+puts(r2.to_s)
